@@ -4,5 +4,7 @@ export interface Certification {
   company: string;
   companyLogo: string;
   date: string;
-  link: stringasdsad;
+  link: string;
 }
+console.log("This is a test log");
+

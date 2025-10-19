@@ -5,7 +5,11 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "lint": "npm run lint:eslint -- --fix && npm run lint:types",
+    "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx",
+    "lint:types": "tsc --noEmit",
+    "prepare": "husky"
   },
   "dependencies": {
     "next": "15.5.6",
@@ -13,12 +17,22 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
+    "@eslint/js": "^9.38.0",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@typescript-eslint/eslint-plugin": "^8.46.1",
+    "@typescript-eslint/parser": "^8.46.1",
+    "eslint": "^9.38.0",
+    "eslint-plugin-react": "^7.37.5",
     "globals": "^16.4.0",
+    "lint-staged": "^16.2.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8.46.1"
+  },
+  "lint-staged": {
+    "*.{ts,tsx}": "npm run lint"
   }
 }
