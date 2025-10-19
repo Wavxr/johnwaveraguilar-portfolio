@@ -5,9 +5,7 @@
   "scripts": {
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint",
-    "prepare": "husky"
+    "start": "next start"
   },
   "dependencies": {
     "next": "15.5.6",
@@ -15,22 +13,12 @@
     "react-dom": "19.1.0"
   },
   "devDependencies": {
-    "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.6",
-    "eslint-config-prettier": "^10.1.8",
-    "husky": "^9.1.7",
-    "lint-staged": "^16.2.4",
-    "prettier": "^3.6.2",
+    "globals": "^16.4.0",
     "tailwindcss": "^4",
     "typescript": "^5"
-  },
-  "lint-staged": {
-    "*.{js,jsx,ts,tsx,json,css,scss,md,html,yml,yaml}": "prettier --write",
-    "*.js": "eslint --cache --fix"
   }
 }
