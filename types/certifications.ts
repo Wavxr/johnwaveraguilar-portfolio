@@ -6,5 +6,3 @@ export interface Certification {
   date: string;
   link: string;
 }
-console.log("This is a test log");
-
