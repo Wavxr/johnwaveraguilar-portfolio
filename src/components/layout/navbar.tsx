@@ -30,11 +30,11 @@ function NavBar({ navLinks }: NavBarProps) {
 
   return (
     <>
-      <header className="fixed top-0 left-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-neutral-200 dark:bg-neutral-950/80 dark:border-neutral-800">
+      <header className="fixed top-0 left-0 z-50 w-full bg-white/80 backdrop-blur-md border-b border-neutral-200">
         <div className="container mx-auto flex h-16 items-center justify-between px-4 lg:px-6">
           <Link className="flex items-center gap-2" href="#" onClick={closeMobileMenu}>
             <Logo props={{ width: 32, height: 32 }} />
-            <span className="text-lg font-bold text-neutral-950 dark:text-neutral-50">
+            <span className="text-lg font-bold text-neutral-950">
               John Waver Aguilar
             </span>
           </Link>
@@ -59,7 +59,7 @@ function NavBar({ navLinks }: NavBarProps) {
                 <Link
                   key={link.href}
                   href={link.href}
-                  className="text-sm font-medium text-neutral-700 hover:text-neutral-950 transition-colors dark:text-neutral-300 dark:hover:text-neutral-50"
+                  className="text-sm font-medium text-neutral-700 hover:text-neutral-950 transition-colors"
                 >
                   {link.name}
                 </Link>
@@ -75,7 +75,7 @@ function NavBar({ navLinks }: NavBarProps) {
           onClick={closeMobileMenu}
         >
           <div
-            className="fixed right-0 top-16 h-[calc(100vh-4rem)] w-72 bg-white dark:bg-neutral-950 border-l border-neutral-200 dark:border-neutral-800 shadow-xl"
+            className="fixed right-0 top-16 h-[calc(100vh-4rem)] w-72 bg-white border-l border-neutral-200 shadow-xl"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="flex flex-col h-full overflow-y-auto">
@@ -86,9 +86,9 @@ function NavBar({ navLinks }: NavBarProps) {
                       key={link.href}
                       href={link.href}
                       onClick={closeMobileMenu}
-                      className="flex items-center gap-4 text-base font-medium text-neutral-700 hover:text-neutral-950 transition-colors dark:text-neutral-300 dark:hover:text-neutral-50"
+                      className="flex items-center gap-4 text-base font-medium text-neutral-700 hover:text-neutral-950 transition-colors"
                     >
-                      <span className="text-xl text-neutral-500 dark:text-neutral-400">
+                      <span className="text-xl text-neutral-500">
                         {link.icon}
                       </span>
                       <span>{link.name}</span>
@@ -97,8 +97,8 @@ function NavBar({ navLinks }: NavBarProps) {
                 </div>
               </nav>
 
-              <div className="border-t border-neutral-200 dark:border-neutral-800 p-6">
-                <p className="text-xs font-semibold text-neutral-500 dark:text-neutral-400 mb-4 uppercase tracking-wider">
+              <div className="border-t border-neutral-200 p-6">
+                <p className="text-xs font-semibold text-neutral-500 mb-4 uppercase tracking-wider">
                   Connect
                 </p>
                 <div className="flex flex-col gap-3">
@@ -108,7 +108,7 @@ function NavBar({ navLinks }: NavBarProps) {
                       href={social.href}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-neutral-600 hover:text-neutral-950 transition-colors dark:text-neutral-400 dark:hover:text-neutral-50"
+                      className="text-sm text-neutral-600 hover:text-neutral-950 transition-colors"
                     >
                       {social.label}
                     </a>
