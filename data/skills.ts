@@ -27,6 +27,13 @@ export const skillsData: SkillsData = [
     ],
   },
   {
+    category: SkillCategoryType.Databases,
+    skills: [
+      { name: "PostgreSQL", logo: "postgresql.png" },
+      { name: "MySQL", logo: "mysql.png" },
+    ],
+  },
+  {
     category: SkillCategoryType.Tools,
     skills: [
       { name: "Git", logo: "git.png" },
@@ -34,13 +41,6 @@ export const skillsData: SkillsData = [
       { name: "Firebase", logo: "firebase.png" },
       { name: "Supabase", logo: "supabase.png" },
       { name: "AWS", logo: "aws.png" },
-    ],
-  },
-  {
-    category: SkillCategoryType.Databases,
-    skills: [
-      { name: "PostgreSQL", logo: "postgresql.png" },
-      { name: "MySQL", logo: "mysql.png" },
     ],
   },
   {
