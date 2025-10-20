@@ -12,7 +12,7 @@ export const socials = [
   {
     id: "portfolio",
     label: "Portfolio",
-    href: "https://johnwaveraguilar.dev",
+    href: "https://johnwaveraguilar.vercel.app/",
   },
   {
     id: "resume",
