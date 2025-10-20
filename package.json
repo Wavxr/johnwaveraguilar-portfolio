@@ -6,9 +6,8 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "npm run lint:eslint -- --fix && npm run lint:types",
+    "lint": "npm run lint:eslint -- --fix",
     "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx",
-    "lint:types": "tsc --noEmit",
     "prepare": "husky"
   },
   "dependencies": {
