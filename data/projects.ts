@@ -1,4 +1,4 @@
-import type { Project } from "@/types";
+import type { Project } from "../types/projects";
 
 export const projects: Project[] = [
   {
@@ -23,7 +23,7 @@ export const projects: Project[] = [
     name: "StudyHub Nook",
     description:
       "StudyNook Hub is a PHP-based e-commerce web application designed to provide a seamless shopping experience for users. It includes essential features like user authentication, product management, shopping cart functionality, and a secure backend database.",
-    github: "https://github.com/Wavxr/StudyNook-Hub",
+    github: "https://github.com/Wavxr/StudyHub-Nook",
   },
   {
     id: "4",
