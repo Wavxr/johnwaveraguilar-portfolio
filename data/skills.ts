@@ -31,7 +31,6 @@ export const skillsData: SkillsData = [
     skills: [
       { name: "Git", logo: "git.png" },
       { name: "GitHub", logo: "github.png" },
-      { name: "Docker", logo: "docker.png" },
       { name: "Firebase", logo: "firebase.png" },
       { name: "Supabase", logo: "supabase.png" },
       { name: "AWS", logo: "aws.png" },
