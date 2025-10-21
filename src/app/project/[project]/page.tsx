@@ -7,7 +7,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTags, CardTitle } f
 import { Button } from "@/components/ui/button"
 import { FaGithub, FaArrowLeft, FaExternalLinkAlt } from "react-icons/fa"
 import { useState } from "react"
-import NavBar from "@/components/layout/NavBar"
+import NavBar from "@/components/layout/navbar"
 import Footer from "@/components/layout/footer"
 import { homeNavLinks } from "@/constants/navlinks"
 
