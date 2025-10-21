@@ -8,7 +8,7 @@
     "start": "next start",
     "lint": "npm run lint:eslint -- --fix",
     "lint:eslint": "eslint --ext .js,.jsx,.ts,.tsx",
-    "prepare": "husky"
+    "prepare": "husky || true"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.2.3",
@@ -35,6 +35,7 @@
     "eslint": "^9.38.0",
     "eslint-plugin-react": "^7.37.5",
     "globals": "^16.4.0",
+    "husky": "^9.1.7",
     "lint-staged": "^16.2.4",
     "tailwindcss": "^4",
     "typescript": "^5",
