@@ -17,7 +17,7 @@ export const socials = [
   {
     id: "resume",
     label: "Online Resume",
-    href: "https://drive.google.com/file/d/1PSOxqhKAThzlatQ3hXpOATjrCyXCMRFX/view?usp=sharing",
+    href: "https://drive.google.com/file/d/1lUXWcjQ5m1mySyuQmGGVUd6D--vOQCrH/view?usp=drive_link",
   },
   {
     id: "facebook",
