@@ -29,6 +29,11 @@ export const homeNavLinks: NavLink[] = [
 		icon: <FaRocket className="h-6 w-6" />,
 	},
 	{
+		name: "Recommendations",
+		href: "/#recommendations",
+		icon: <FaStar className="h-6 w-6" />,
+	},
+	{
 		name: "Certifications",
 		href: "/#certifications",
 		icon: <FaCertificate className="h-6 w-6" />,
