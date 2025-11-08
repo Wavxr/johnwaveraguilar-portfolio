@@ -7,7 +7,7 @@ export const socials = [
   {
     id: "linkedin",
     label: "LinkedIn",
-    href: "https://www.linkedin.com/in/john-waver-aguilar-2a695335a/",
+    href: "https://www.linkedin.com/in/johnwaveraguilar/",
   },
   {
     id: "portfolio",
@@ -16,8 +16,8 @@ export const socials = [
   },
   {
     id: "resume",
-    label: "Online Resume",
-    href: "https://drive.google.com/file/d/1lUXWcjQ5m1mySyuQmGGVUd6D--vOQCrH/view?usp=drive_link",
+    label: "Resume",
+    href: "https://flowcv.com/resume/1wu5lkmpiois",
   },
   {
     id: "facebook",

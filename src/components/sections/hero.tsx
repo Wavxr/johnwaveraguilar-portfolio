@@ -52,16 +52,18 @@ function Hero() {
               </Button>
             </div>
 
-            <div className="flex items-center gap-3">
+            <div className="flex flex-wrap items-center gap-3">
               {displayedSocials.map((social) => (
-                <Button key={social.id} size="icon" variant="ghost" asChild>
+                <Button key={social.id} variant="outline" asChild>
                   <a
                     href={social.href}
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label={social.label}
+                    className="flex items-center gap-2"
                   >
                     {socialIcons[social.id as keyof typeof socialIcons]}
+                    <span className="font-medium">{social.label}</span>
                   </a>
                 </Button>
               ))}
